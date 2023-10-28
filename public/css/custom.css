@@ -1,0 +1,52 @@
+.flex
+{
+    display: flex;
+}
+.f-direction-column
+{
+    flex-direction: column;
+}
+.f-align-center {
+    align-items: center;
+}
+.f-space-between {
+    justify-content: space-between;
+}
+.f-space-around {
+    justify-content: space-around;
+}
+.w-90
+{
+    width: 90%;
+}
+.w-85
+{
+    width: 85%;
+}
+.w-100
+{
+    width: 100%;
+}
+#email-phone-radio {
+    padding-right: 0px;
+}
+.input-field input[type=text]:disabled  {
+    color: black;
+    border-bottom: 1px solid #4CAF50;
+    box-shadow: 0 1px 0 0 #4CAF50;
+}
+.input-field textarea:disabled {
+    color: black;
+    border-bottom: 1px solid #4CAF50;
+    box-shadow: 0 1px 0 0 #4CAF50;
+
+}
+#uploadModal {
+    height: 25%!important;
+}
+
+.footer-fixed {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
